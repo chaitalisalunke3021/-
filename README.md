@@ -1,1 +1,17 @@
-# -
+# -E=eval(input('enter maths marks'))
+M=eval(input('enter maths marks'))
+H=eval(input('enter hindi marks'))
+S=eval(input('enter science marks'))
+G=eval (input('enter geography marks'))
+t=E+M+H+S+G
+ma=((E+M+S+H+G)/500)*100
+if ma>75:
+     print('O grade')
+elif ma>60 and ma<75:
+    print('A grade')
+elif ma>45 and ma<60:
+    print('B grade')
+elif ma>35 and ma<45:
+    print('C grade')
+elif ma<35:
+    
