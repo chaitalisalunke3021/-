@@ -14,4 +14,4 @@ elif ma>45 and ma<60:
 elif ma>35 and ma<45:
     print('C grade')
 elif ma<35:
-    
+print('fail')    
